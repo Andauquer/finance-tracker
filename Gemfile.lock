@@ -66,6 +66,7 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    hirb (0.7.3)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (0.8.6)
@@ -204,6 +205,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   devise-bootstrap-views
+  hirb (= 0.7.3)
   jbuilder (~> 2.0)
   jquery-rails
   pg

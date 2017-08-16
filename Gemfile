@@ -12,6 +12,9 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stock_quote'
 
+# Use Hirb for better display of the databas on the console
+gem 'hirb', '0.7.3'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views

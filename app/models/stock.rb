@@ -1,5 +1,8 @@
 class Stock < ActiveRecord::Base
   
+  has_many :user_stocks
+  has_many :users, through: :user_stocks
+  
   #Este metodo busca un objeto ticker en nuestra tabla de Stocks
   def self.find_by_ticker(ticker_symbol)
     where(ticker: ticker_symbol).first
